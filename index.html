@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Littlest Cloud</title>
+    <link rel="stylesheet" href="bower_components/talk-o-vision/talk-o-vision.css">
+    <style>
+      .title-slide{
+        background: url('slides/title/img/cloud-1.jpg') no-repeat center center;
+        background-size: contain;
+      }
+
+      .banner {
+        background-color: black;
+        opacity: 0.7;
+        width: 100%;
+      }
+
+      .banner-title {
+        font-size: 1em;
+        text-align: left;
+        padding: 0.5em;
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+
+      .banner-title h1 {
+        font-size: 1.5em;
+        text-transform: none;
+        font-weight: bold;
+      }
+
+      .banner-title h2 {
+        font-size: 1em;
+        text-transform: none;
+        font-style: italic;
+      }
+
+      .banner-bio {
+        font-size: 0.5em;
+        text-align: right;
+        padding-right: 20%;
+        padding-bottom: 1em;
+      }
+
+      .banner-bio a{
+        color: white;
+      }
+
+      p{
+        width: 75%;
+        text-align: center;
+        padding-left: 12%;
+      }
+
+      .full-height{
+        height: 100vh;
+        /*width: 100vw;*/
+      }
+
+      .full-width{
+        /*height: 100vh;*/
+        width: 100vw;
+      }
+
+      .partial-height{
+        height: 75%;
+        max-height: 75%;
+      }
+
+      .half-img{
+        max-width: 75%;
+        margin-top: 1rem;
+      }
+
+      .top-margin{
+        margin-top: 1rem;
+      }
+
+      .section-title{
+        position: relative;
+        top: 50%;
+        transform: perspective(1px) translateY(-50%);
+      }
+
+      .sub-title{
+        margin: 0;
+        margin-top: -2rem;
+      }
+
+      table th, table td {
+          text-align: left;
+          padding: 0.2em 0.5em 0.2em 0.5em;
+          /*border-bottom: 1px solid;*/
+      }
+      table {
+          margin: auto;
+          padding-left: 20%;
+          border-collapse: collapse;
+          border-spacing: 0;
+      }
+
+      ol{
+        width: 75%;
+      }
+
+    </style>
+
+
+  </head>
+  <body>
+    <ol class="slideshow">
+      <li class="title-slide">
+          <div class="banner">
+            <div class="banner-title">
+              <h1>The Littlest Cloud</h1>
+              <h2>IoT, UPnP, and Mesh Networks</h2>
+            </div>
+            <div class="banner-bio">
+              Scott Davis <br>
+              <a href="mailto:sdavis@thoughtworks.com">sdavis@thoughtworks.com</a> <br>
+              <a href="https://twitter.com/scottdavis99?lang=en">@scottdavis99</a>
+            </div>
+          </div>
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/bio/img/scott-davis-bio.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/scale/img/car-bus.jpg"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/wired-iot/img/wired-iot.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/wiki-iot/img/wiki-iot.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/the-network-is-the-computer/img/the-network-is-the-computer.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/metcalfes-law/img/metcalfes-law.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/smart-home/img/smart-home-pc-mag.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ecobee/img/ecobee-home.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/sonos/img/sonos-home.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/amazon-echo/img/amazon-echo.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/amazon-echo/img/amazon-echo-services.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/amazon-echo/img/amazon-echo-upnp.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li>
+        <h2>What have we <span class="highlight">learned</span>?</h2>
+
+        <ul style="width:65%;">
+          <li>IoT === smart, <span class="highlight">connected</span> devices</li>
+          <li>"The Cloud" is a major aspect</li>
+          <li>"The Littlest Cloud" === Smart Home</li>
+        </ul>
+      </li>
+
+      <li>
+        &nbsp;
+      </li>
+
+
+
+
+
+
+
+
+
+
+
+
+      <li>
+        <h2 class="section-title"><span class="highlight">UPnP</span></h2>
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/upnp/img/upnp-book.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/upnp/img/tv-and-tablet.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/variety-internet-connected-devices/img/variety-internet-connected-tv.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/variety-internet-connected-devices/img/variety-internet-connected-devices.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/upnp/img/wiki-upnp.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/upnp/img/wiki-upnp-overview.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/dlna/img/wiki-dlna.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/dlna/img/wiki-dlna-companies.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/dlna/img/wiki-dlna-devices.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/allshare/img/samsung-allshare.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/allshare/img/samsung-allshare-2.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/bonjour/img/bonjour-wiki.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/apple-tv/img/apple-tv-wiki.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/apple-tv/img/apple-tv-wiki-content.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/apple-tv/img/apple-tv-wiki-local-sources.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/airplay/img/airplay-wiki.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li>
+        &nbsp;
+      </li>
+
+
+
+
+
+
+
+
+
+
+
+
+      <li>
+        <h2 class="section-title"><span class="highlight">Discovery</span></h2>
+      </li>
+
+      <li class="bg-white">
+        <h2>0. Addressing</h2>
+        <img src="slides/upnp/img/wiki-upnp-addressing.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <h2>1. Discovery</h2>
+        <img src="slides/upnp/img/wiki-upnp-discovery.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-wiki.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-wiki-udp.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/udp/img/udp-wiki.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/udp/img/networkschema.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/udp/img/udp-wiki-uses.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/quic/img/quic-wiki.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/quic/img/http2-spdy-quic-chrome-extension.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/quic/img/quic-report.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <h2>1. Discovery</h2>
+        <img src="slides/upnp/img/wiki-upnp-discovery.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-diagram.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-announcement-packet.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-byebye.png"
+             alt=""
+             class="full-width">
+      </li>
+
+
+      <li class="bg-white">
+        <h2>2. Description</h2>
+        <img src="slides/upnp/img/wiki-upnp-description.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-description-diagram.png"
+             alt=""
+             class="full-width">
+      </li>
+
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-description.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-description-2.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ssdp/img/ssdp-description-3.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li>
+        &nbsp;
+      </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <li>
+        <h2 class="section-title"><span class="highlight">Mesh Networks</span></h2>
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/mesh-network/img/mesh-network-wiki.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/ecobee/img/ecobee-home.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/sonos/img/sonos-home.png"
+             alt=""
+             class="full-height">
+      </li>
+
+
+      <li class="bg-white">
+        <img src="slides/sonos/img/sonosnet.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/sonos/img/sonosnet-2.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li>
+        &nbsp;
+      </li>
+
+
+
+
+
+
+
+
+
+
+      <li>
+        <h2 class="section-title"><span class="highlight">Conclusion</span></h2>
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/wired-iot/img/wired-iot.png"
+             alt=""
+             class="full-width">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/metcalfes-law/img/metcalfes-law.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/smart-home/img/smart-home-pc-mag.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="bg-white">
+        <img src="slides/upnp/img/tv-and-tablet.png"
+             alt=""
+             class="full-height">
+      </li>
+
+      <li class="title-slide">
+          <div class="banner">
+            <div class="banner-title">
+              <h1>The Littlest Cloud</h1>
+              <h2>IoT, UPnP, and Mesh Networks</h2>
+            </div>
+            <div class="banner-bio">
+              Scott Davis <br>
+              <a href="mailto:sdavis@thoughtworks.com">sdavis@thoughtworks.com</a> <br>
+              <a href="https://twitter.com/scottdavis99?lang=en">@scottdavis99</a>
+            </div>
+          </div>
+      </li>
+
+
+
+
+    </ol>
+
+
+    <script src="bower_components/talk-o-vision/talk-o-vision.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+cloud
+https://astrofisicaconsalypimienta.files.wordpress.com/2013/03/cielo-azul.jpg
+
+cloud-1
+https://pixabay.com/p-1194914/?no_redirect
+
+car bus
+http://maxpixel.freegreatpicture.com/Van-Big-Bus-Little-Vehicles-Relative-Size-Car-649729
+
+wired iot
+https://www.wired.com/insights/2014/11/the-internet-of-things-bigger/
+
+wiki iot
+https://en.wikipedia.org/wiki/Internet_of_things
+
+smart home pc mag
+http://www.pcmag.com/article2/0,2817,2410889,00.asp
+
+ecobee
+https://www.ecobee.com/
+
+wiki amazon echo
+https://en.wikipedia.org/wiki/Amazon_Echo
+
+wiki upnp
+https://en.wikipedia.org/wiki/Universal_Plug_and_Play
+
+samsung allshare
+https://www.lifewire.com/how-samsung-allshare-simplifies-media-streaming-1847358
+
+wiki john gage
+https://en.wikipedia.org/wiki/John_Gage
+
+wiki quic
+https://en.wikipedia.org/wiki/QUIC
+
+variety internet connected tv
+http://variety.com/2016/digital/news/one-in-two-households-with-internet-access-has-tv-hooked-up-for-streaming-1201724235/
+
+bonjour
+https://en.wikipedia.org/wiki/Bonjour_(software)
+
+appletv
+https://en.wikipedia.org/wiki/Apple_TV
+
+airplay
+https://en.wikipedia.org/wiki/AirPlay
+
+ssdp
+https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol
+
+network schema
+https://jwhsmith.net/wp-content/uploads/2014/03/networkschema.png

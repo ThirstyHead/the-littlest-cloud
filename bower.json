@@ -1,0 +1,22 @@
+{
+  "name": "the-littlest-cloud",
+  "homepage": "https://github.com/ThirstyHead/the-littlest-cloud",
+  "version": "1.0.0",
+  "authors": [
+    "Scott Davis <scott@thirstyhead.com>"
+  ],
+  "description": "PRESENTATION: The Littlest Cloud: IoT, UPnP, and Mesh Networks",
+  "main": "index.html",
+  "license": "CC-BY-4.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "talk-o-vision": "thirstyhead/talk-o-vision#^0.2.1"
+  }
+}
