@@ -33,3 +33,9 @@ https://en.wikipedia.org/wiki/John_Gage
 
 wiki quic
 https://en.wikipedia.org/wiki/QUIC
+
+variety internet connected tv
+http://variety.com/2016/digital/news/one-in-two-households-with-internet-access-has-tv-hooked-up-for-streaming-1201724235/
+
+bonjour
+https://en.wikipedia.org/wiki/Bonjour_(software)
