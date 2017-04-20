@@ -39,3 +39,9 @@ http://variety.com/2016/digital/news/one-in-two-households-with-internet-access-
 
 bonjour
 https://en.wikipedia.org/wiki/Bonjour_(software)
+
+appletv
+https://en.wikipedia.org/wiki/Apple_TV
+
+airplay
+https://en.wikipedia.org/wiki/AirPlay
