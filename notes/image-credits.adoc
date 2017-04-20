@@ -45,3 +45,6 @@ https://en.wikipedia.org/wiki/Apple_TV
 
 airplay
 https://en.wikipedia.org/wiki/AirPlay
+
+ssdp
+https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol
