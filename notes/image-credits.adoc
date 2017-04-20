@@ -48,3 +48,6 @@ https://en.wikipedia.org/wiki/AirPlay
 
 ssdp
 https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol
+
+network schema
+https://jwhsmith.net/wp-content/uploads/2014/03/networkschema.png
